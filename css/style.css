@@ -1,0 +1,91 @@
+body, html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    margin: auto;
+    width: 100vh;
+    overflow: hidden;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.3em;
+    background-color: aqua;
+    padding: 1em;
+}
+
+.chat-container{
+    background-color: aliceblue;
+    height: 70vh;
+    overflow-y: auto;
+    padding-top: 10px;
+}
+
+.message-box {
+    background-color: turquoise;
+    margin: 10px;
+    width: 50vh;
+    padding: 10px;
+    border-radius: 1em;
+    padding-left: 1rem;
+}
+
+.friends{
+    float:left;
+    clear: both;
+}
+
+.you{
+    float:right;
+    clear: both;
+}
+
+.add-friend{
+    margin-top: 15px;
+    text-align: center;
+    clear: both;
+}
+
+.add{
+    background-color: #a7f1e98f;
+    padding: 5px;
+    border-radius: 10px;
+    color: #3396dcc9;
+    font-style: italic;
+}
+
+.send-message{
+    background-color: mediumaquamarine;
+    padding: 10px;
+}
+
+input{
+    padding-left: 10px;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    border: none;
+    outline: none;
+    width: 80vh;
+    height: 2rem;
+}
+
+button{
+    border-radius: 10px;
+    outline: none;
+    width: 13vh;
+    height: 2.4rem;
+    color: antiquewhite;
+    background-color: transparent;
+}
+
+button:hover{
+    background-color: turquoise;
+    font-weight: 700;
+    color: black;
+    font-size: 1rem;
+
+}
